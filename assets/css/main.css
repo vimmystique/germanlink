@@ -1,0 +1,90 @@
+:root {
+  --gl_blue: #092C93;
+  --gl_shade: #f2f2f2;
+  --gl_day_text: #030e30;
+  --gl_night_text: #fff;
+  --gl_day_background: #fff;
+  --gl_night_background: #030e30;
+  --gl_red: #ED3237;
+}
+
+/* #18191A */
+
+@font-face {
+  font-family: "Fonty";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Fonty"), local("Fonty"), url("../fonts/roboto-light.woff")
+}
+
+@font-face {
+  font-family: "Fonty2";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Fonty2"), local("Fonty2"), url("../fonts/roboto-light.ttf")
+}
+
+@font-face {
+  font-family: "Fonty3";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Fonty2"), local("Fonty2"), url("../fonts/BauhausBold.woff")
+}
+
+body {
+  font-family: Fonty, Fonty2;
+  letter-spacing: 0.04em;
+  font-size: 0.8em;
+  line-height: 1.8em;
+
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  margin: 10px 0px
+}
+main {
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.clickable:hover{
+  color: var(--gl_red) !important;
+  cursor: pointer;
+}
+.selected{
+  color: var(--gl_red) !important;
+  font-weight: 600;
+}
+.gl_daytime_mode {
+  background: var(--gl_day_background);
+  color: var(--gl_day_text);
+  transition-duration: 0.5s;
+}
+
+.gl_nighttime_mode {
+  background: var(--gl_night_background);
+  color: var(--gl_night_text);
+  transition-duration: 0.5s;
+}
+
+.theme_button {
+  font-size: xxx-large;
+  text-align: center;
+  display: block;
+  bottom: 20px;
+  left: 20px;
+}
+
+.theme_button:hover {
+  color: var(--gl_red);
+  cursor: pointer;
+}
+.hide{
+  display: none !important;
+}
