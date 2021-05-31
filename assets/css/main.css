@@ -21,7 +21,7 @@
   font-family: "Fonty2";
   font-style: normal;
   font-weight: 300;
-  src: local("Fonty2"), local("Fonty2"), url("../fonts/roboto-light.ttf")
+  src: local("Fonty2"), local("Fonty2"), url("../fonts/Futura Bold font.ttf")
 }
 
 @font-face {
@@ -49,7 +49,7 @@ p{
 main {
   align-items: center;
   position: relative;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 
@@ -88,3 +88,5 @@ main {
 .hide{
   display: none !important;
 }
+
+

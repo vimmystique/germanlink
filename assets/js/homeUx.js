@@ -48,7 +48,7 @@ d[s].classList.remove('hide')
 body.onscroll = function(){
 
   if (scrollY > 30){
-      console.log('kicked');
+      
       header.classList.add("fixed");
       
 }else {

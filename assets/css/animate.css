@@ -9,3 +9,13 @@
   display: inline-block;
   line-height: 1em;
 }
+
+.ml15 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml15 .letter {
+  display: inline-block;
+  line-height: 1em;
+}

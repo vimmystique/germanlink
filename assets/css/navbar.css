@@ -18,10 +18,18 @@ header{
   padding: 5px 10px;
   position: relative;
   z-index: 5;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
 }
-.alertbar p{
-  margin:0px;
+.alertbar p,.alertbar i{
+  margin:0px 10px;
 }
+.alertbar i:hover{
+  color: var(--gl_blue);
+  cursor: pointer;
+}
+
 #navbar_ico{
   height: 50px;
   margin-right: 10px;
@@ -67,7 +75,7 @@ header{
   max-width: 450px;
   height: 100vh;
   box-shadow: 0px 1px 5px;
-  z-index: 10;
+  z-index: 15;
   top: 0px;
   left: 0px;
   transform: translateX(-100vw);
@@ -87,6 +95,7 @@ header{
   padding: 10px;
   border-radius: 50%;
   width: 100px;
+  background: #fff;
 }
 .drawer_menu_btn_wrapper{
 display:flex;

@@ -22,7 +22,7 @@ themeSwitch.addEventListener("click", (e) => {
 
 function dayTimeMonitor(day) {
 for (let i = 0; i < theme.length; i++) {
-  console.log(theme[i]);
+
    if (day) {
     themeSwitch.classList.remove("fa-moon-o")
     themeSwitch.classList.add("fa-sun-o")

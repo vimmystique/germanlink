@@ -1,13 +1,11 @@
-$(document).on('ready', function() {
-  $(".regular").slick({
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    centerMode: false,
-    variableWidth: false,
-    autoplay: true,
-    autoplaySpeed: 1500
+$(document).ready(function() {
+  $('#lightSlider').lightSlider({
+        autoWidth:true,
+        loop:true,
+        auto:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
   });
- 
-})
+
