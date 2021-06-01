@@ -52,7 +52,11 @@ main {
   padding-top: 50px;
 }
 
-
+hr{
+  border: 1px dashed var(--gl_shade);
+  width: 80%;
+  margin: 30px auto;
+}
 .clickable:hover{
   color: var(--gl_red) !important;
   cursor: pointer;

@@ -248,8 +248,10 @@ font-family: Fonty;
   color: var(--gl_red);
   text-decoration: underline;
 }
-.focus_division p{
-
+.traffic{
+  width: 90%;
+  margin: 70px auto;
+  display: block;
 }
 footer{
   padding: 50px 0px 0px;
@@ -369,8 +371,11 @@ iframe{
     }
     .focus_division_wrapper{
       display: block !important;
+      width: 85% !important;
     }
-
+    .section_focus_container{
+      margin: 0px !important;
+    }
 .lSSlideWrapper {
   width: 100% !important;
 
@@ -421,7 +426,7 @@ iframe{
 
 
 .alertbar p, .alertbar i {
-    margin: 0px 5px;
+    margin: 0px 2px;
 }
   }
 
