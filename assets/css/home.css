@@ -157,7 +157,7 @@ font-family: Fonty;
   /* background: var(--gl_shade); */
   padding: 10px 20px;
   position: relative;
-  bottom: 10%;
+  bottom: 0px;
   margin: auto;
   font-size: 1.3em;
   border: 2px solid;
