@@ -53,7 +53,7 @@ main {
 }
 
 hr{
-  border: 1px dashed var(--gl_shade);
+  border: 1px solid var(--gl_shade);
   width: 80%;
   margin: 30px auto;
 }
