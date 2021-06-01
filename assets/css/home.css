@@ -216,6 +216,7 @@ font-family: Fonty;
   color: var(--gl_red);
   line-height: 2;
   letter-spacing: 5px;
+  text-shadow: 0px 1px 0px black;
 }
 
 .learn_more_section{
@@ -223,7 +224,33 @@ font-family: Fonty;
   letter-spacing: 2px;
   cursor: pointer;
 }
+.section_focus_container{
+  margin-top:50px;
+}
+.section_focus_container hr{
+  color: red;
+  width: 8%;
+  margin: auto;
+  border: 1px dashed;
+}
+.focus_division_wrapper{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.focus_division{
+  padding: 10px;
+}
+.focus_division h3{
+  font-size: 2.3em;
+  font-family: 'Fonty';
+  font-weight: lighter;
+  color: var(--gl_red);
+  text-decoration: underline;
+}
+.focus_division p{
 
+}
 footer{
   padding: 50px 0px 0px;
   min-height: 400px;
@@ -283,6 +310,19 @@ footer{
 a{
   text-decoration:none;
   color: inherit;
+}
+.our_location{
+  width: 100%;
+  margin: 20px auto;
+}
+
+iframe{
+  border: 0;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  display: block;
+  box-shadow: 0px 0px 2px;
 }
 /* Device responsive styles */
 
