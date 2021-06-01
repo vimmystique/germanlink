@@ -225,7 +225,7 @@ font-family: Fonty;
   cursor: pointer;
 }
 .section_focus_container{
-  margin-top:50px;
+  margin:50px;
 }
 .section_focus_container hr{
   color: red;
@@ -367,7 +367,9 @@ iframe{
       padding: 15px 5%;
       
     }
-
+    .focus_division_wrapper{
+      display: block !important;
+    }
 
 .lSSlideWrapper {
   width: 100% !important;
